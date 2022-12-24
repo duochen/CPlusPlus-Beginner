@@ -4,11 +4,11 @@ void printmessage(); // function declaration
 
 int main()
 {
-	printmessage();
+    printmessage();
 }
 
 // function definition
 void printmessage()
 {
-	std::cout << "Hello World from a function.";
+    std::cout << "Hello World from a function.";
 }

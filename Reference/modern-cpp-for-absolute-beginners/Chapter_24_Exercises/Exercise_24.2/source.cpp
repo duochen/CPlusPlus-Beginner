@@ -1,11 +1,11 @@
 class MyClass
 {
-	char c;
-	int x;
-	bool b;
+    char c;
+    int x;
+    bool b;
 };
 
 int main()
 {
-	MyClass o;
+    MyClass o;
 }

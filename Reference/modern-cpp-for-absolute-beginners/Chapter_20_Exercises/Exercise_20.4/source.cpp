@@ -3,11 +3,11 @@
 
 void custommessage(const std::string& message)
 {
-	std::cout << "The string argument you used is: " << message;
+    std::cout << "The string argument you used is: " << message;
 }
 
 int main()
 {
-	std::string mymessage = "My Custom Message.";
-	custommessage(mymessage);
+    std::string mymessage = "My Custom Message.";
+    custommessage(mymessage);
 }

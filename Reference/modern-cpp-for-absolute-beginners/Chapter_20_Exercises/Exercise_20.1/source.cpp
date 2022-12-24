@@ -2,10 +2,10 @@
 
 void printmessage()
 {
-	std::cout << "Hello World from a function.";
+    std::cout << "Hello World from a function.";
 }
 
 int main()
 {
-	printmessage();
+    printmessage();
 }

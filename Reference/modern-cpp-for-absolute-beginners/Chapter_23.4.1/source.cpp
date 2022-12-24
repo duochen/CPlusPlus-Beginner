@@ -3,12 +3,12 @@
 class MyClass
 {
 public:
-	MyClass()
-	{
-		std::cout << "Default constructor invoked." << '\n';
-	}
+    MyClass()
+    {
+        std::cout << "Default constructor invoked." << '\n';
+    }
 };
 int main()
 {
-	MyClass o; // invoke a default constructor
+    MyClass o; // invoke a default constructor
 }

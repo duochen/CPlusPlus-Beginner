@@ -3,14 +3,14 @@
 class MyClass
 {
 public:
-	void printmessage()
-	{
-		std::cout << "Hello World.";
-	}
+    void printmessage()
+    {
+        std::cout << "Hello World.";
+    }
 };
 
 int main()
 {
-	MyClass o;
-	o.printmessage();
+    MyClass o;
+    o.printmessage();
 }

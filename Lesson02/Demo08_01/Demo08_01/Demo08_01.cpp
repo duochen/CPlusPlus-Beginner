@@ -8,13 +8,20 @@ int main()
     std::cout << "Please enter a number and press enter: ";
     int x = 0;
     std::cin >> x;
-    std::cout << "You enetered: " << x;
+    std::cout << "You enetered: " << x << '\n';
 
     std::cout << "Please enter two numbers separated by a space and press enter: ";
     int a = 0;
     int b = 0;
     std::cin >> a >> b;
-    std::cout << "You entered: " << a << " and " << b;
+    std::cout << "You entered: " << a << " and " << b << '\n';
+
+    std::cout << "Please enter a character, an integer and a double: ";
+    char c = 0;
+    int y = 0;
+    double d = 0.0;
+    std::cin >> c >> x >> d;
+    std::cout << "You entered: " << c << ", " << y << " and " << d;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
